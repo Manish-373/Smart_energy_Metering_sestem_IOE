@@ -14,8 +14,8 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // Initialize LCD with I2C address 0x27 and size 16x2
 
 // Define your Telegram bot token and chat ID
-const char* telegramBotToken = "7597452481:AAGmwnSO2Li0ZwDu_pY7trljoesuO3nKV_0";  // Telegram bot token
-const char* telegramChatID = "1125081481";  // Telegram chat ID
+const char* telegramBotToken = "";  // Telegram bot token
+const char* telegramChatID = "";  // Telegram chat ID
 
 // Constants for calibration
 const float vCalibration = 42.5;  // Voltage calibration factor
@@ -23,8 +23,8 @@ const float currCalibration = 1.80;  // Current calibration factor
 
 // Blynk and WiFi credentials
 const char auth[] = "oTjcIwKH2PoQe3pC3v_n52s4unQjByX-";  // Blynk authentication token
-const char ssid[] = "YashKalekar";  // WiFi SSID
-const char pass[] = "yash@123";  // WiFi password
+const char ssid[] = "";  // WiFi SSID
+const char pass[] = "";  // WiFi password
 
 // EnergyMonitor instance
 EnergyMonitor emon;  // Create an instance of EnergyMonitor
